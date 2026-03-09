@@ -46,11 +46,11 @@ Before we touch the keyboard, I want to see your blueprint. Imagine you are buil
 
 1. Which piece of data about a player would stay the same forever (requiring a "safe"), and which might change as the player plays (requiring a "box")?
 
-*Answer here...*
+*username stays the same, player level changes over time*
 
 3. If you had to explain the `=` symbol to a non-coder using the analogy of a "bucket" and a "ball," how would you describe it?
 
-*Answer here...*
+*[ball = bucket] means the ball goes in the bucket*
 
 ---
 
@@ -69,11 +69,14 @@ let playerLevel = 1;
 
 ```
 
-PROMPT: Now ask Gemini to give you three examples of JavaScript string variables that are declared (created) using the keyword `const`.  Tell Gemini to write the variable names in camel case.  Write the answer Gemini gives you below.
+PROMPT: Now ask Gemini to give you  three examples of JavaScript string variables that are declared (created) using the keyword `const`.  Tell Gemini to write the variable names in camel case.  Write the answer Gemini gives you below.
 
 ```javascript
 // Write the example code Gemini gives you inside this code block
 
+const userName = "Alex Johnson";
+const welcomeMessage = "Hello and welcome!";
+const favoriteColor = "midnight blue";
 
 ```
 
@@ -84,6 +87,7 @@ Add your answer to the JavaScript code block below.
 
 ```javascript
 // Write your answer below this JavaScript comment
+//Danyl Duguid <- lead dev
 
 
 ```
