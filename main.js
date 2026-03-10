@@ -10,5 +10,8 @@
     const grade = "11";
 
     console.log(firstName);
-    console.log(
-
+    console.log(lastName);
+    console.log(eyeColor);
+    console.log(sendingSchool);
+    console.log(ctcProgram);
+    console.log(grade);
